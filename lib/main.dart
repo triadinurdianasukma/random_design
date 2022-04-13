@@ -9,6 +9,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+          Text('Profile picture'),
+          Image.asset('assets.images/primary.png')
+        ],
+      ),
+    );
   }
 }
